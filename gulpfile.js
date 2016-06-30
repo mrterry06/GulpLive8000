@@ -7,7 +7,7 @@ var app 		= express();
 
 app.use(express.static(__dirname))
 	.listen(8000, function(){
-		console.log('I wonder if this will work');
+		console.log('Your project is running on port 8000');
 	});
 //Scripts Task
 //Uglifies
